@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="239c6946-61d0-4128-9869-cc35ede4467f">
+  <producedTypes>
+    <selectionType typeId="0e28d0e9-1132-4f0e-8379-8b7562953b87" valueTypeId="b484c323-b4b6-4af9-b4c6-c1451012dacc"/>
+    <listType typeId="2b9daa4f-d1b3-40e7-b0f7-14a94f72e431" valueTypeId="d22eaa95-cd19-4562-be76-ee6041a267e2"/>
+    <managerType typeId="441bb152-bdff-4466-8a8d-efd4411bc5ad" valueTypeId="d89bfb29-45eb-4ff1-a181-f8ef99473f28"/>
+    <recordSetType typeId="e4d20b8e-8ee9-4838-99f0-64ac5b2e7215" valueTypeId="d490b36c-2ae5-456b-a6e4-30c96a5cc71f"/>
+    <recordKeyType typeId="6708e778-2796-482f-bc07-de25d9d6be0b" valueTypeId="6cdcbb1d-3f38-4ff3-b66d-46882f4357c1"/>
+    <recordType typeId="b04d4156-f075-4d7a-a228-01bc6a426b38" valueTypeId="3c51e645-1f1e-4a63-abb3-a2596d4fcab8"/>
+    <recordManagerType typeId="673f5e28-a640-4e22-a806-8b3509d36d24" valueTypeId="880e0339-aab9-45a9-89cd-dfc10d6c9560"/>
+  </producedTypes>
+  <name>ИсторияЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>История цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="59b4da60-e6b0-48fa-9971-4d6e2cfd2e55">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
